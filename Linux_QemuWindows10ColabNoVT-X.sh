@@ -1,5 +1,5 @@
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken
 nohup ./ngrok tcp 5900 &>/dev/null &
 sudo apt update -y > /dev/null 2>&1
